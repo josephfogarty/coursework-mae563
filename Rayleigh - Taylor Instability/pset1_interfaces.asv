@@ -7,7 +7,7 @@ clc;
 
 % Import simulation results, and change the file, assuming you are
 % already in MAE563/Rayleigh - Taylor Instability
-interface_results = importdata('rho2_gt_rho1/twomodes-highunstable/results2.00_0.dat');
+interface_results = importdata('rho2_gt_rho1/twomodes-highunstable/results1.00_0.dat');
 % [m1,n1] = size(interface_results);
 % fprintf("The size of the raw data is %d by %d\n", m1, n1);
 
@@ -15,7 +15,7 @@ x1 = interface_results(:,1);
 y1 = interface_results(:,2);
 
 % Set Up the Figure
-scatter(x1,y1,7,'filled','m');
+scatter(x1,y1,7,'filled','g');
 
 % Add legend, axes, grid, and title
 grid on
@@ -48,7 +48,7 @@ grid on
 % Optional include legend
 legend('\gamma = 0.1, g = 10','\gamma = 0.05, g = 10','\gamma = 0.05, g = 12')
 
-%%% Collapsing Energy Curves %%%
+%%% Collapsing Energy Curve %%%
 
 clear all
 clf
