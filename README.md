@@ -8,6 +8,8 @@ Each instability has two parts. The first is the linear stability analysis, usin
 More information on Basilisk: http://basilisk.fr/
 
 References:
+
 Drazin, P., Introduction to Hydrodynamic Stability.
+
 Drazin, P. and W. Reid, Hydrodynamic Stability. Cambridge University Press,.
 
